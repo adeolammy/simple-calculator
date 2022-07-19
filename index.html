@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="container">
+        <form action="" class="calculatorForm" name="calculatorForm">
+            <div class="screenDisplay">
+                <input type="text" class="screen" name="screen">
+            </div>
+            
+            <div class="btn sed">
+                <input type="button"value="1" name="1" onclick="func(this)">
+                <input type="button"value="2" name="2" onclick="func(this)">
+                <input type="button"value="3" name="3" onclick="func(this)">
+                <input type="button"value="+" name="+" onclick="func(this)">
+            </div>
+
+            <div class="btn btn1 sed">
+                <input type="button"value="4" name="4" onclick="func(this)">
+                <input type="button"value="5" name="5" onclick="func(this)">
+                <input type="button"value="6" name="6" onclick="func(this)">
+                <input type="button"value="/" name="/" onclick="func(this)">
+            </div>
+
+            <div class="btn btn2 sed">
+                <input type="button"value="7" name="7" onclick="func(this)">
+                <input type="button"value="8" name="8" onclick="func(this)">
+                <input type="button"value="9" name="9" onclick="func(this)">
+                <input type="button"value="*" name="*" onclick="func(this)">
+            </div>
+
+            <div class="btn btn3 sed">
+                <input type="button"value="0" name="0" onclick="func(this)">
+                <input type="button"value="%" name="%" onclick="func(this)">
+                <input type="button"value="." name="dot" onclick="func(this)">
+                <input type="button"value="-" name="-" onclick="func(this)">
+            </div>
+
+            <div class="btn btn4 ">
+                <input type="button"value="C" name="CL" onclick="cleared()">
+                <input type="button"value="=" name="=" onclick="answer()">
+                <!-- <input type="button"value="" name="=" onclick="answer()"> -->
+                <!-- <input type="button"value="-" name="-" onclick="func(this)"> -->
+            </div>
+
+
+
+        </form>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
