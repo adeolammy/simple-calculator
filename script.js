@@ -9,4 +9,5 @@ function cleared() {
 
 function answer() {
     calculatorForm.screen.value = eval(calculatorForm.screen.value )
+    calculatorForm.screen.value == calculatorForm.screen.value
 }
