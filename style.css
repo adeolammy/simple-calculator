@@ -17,7 +17,7 @@ body{
     margin: 0 auto;
     height: 100%;
     background-color: rgb(53, 54, 53);
-    /* border: 5px solid rgb(2, 0, 8); */
+
 }
 form{
      background-color: rgb(1, 19, 1);
@@ -174,7 +174,7 @@ form{
     margin: 0 auto;
     height: 100%;
     background-color: rgb(0, 0, 0);
-    /* border: 5px solid rgb(2, 0, 8); */
+
 }
 form{
   background-color: rgb(119, 118, 118);
@@ -211,8 +211,7 @@ form{
 
 
 
-/* max-width: 360px    max-width: 360px*/ 
-/* max-width: 360px    max-width: 360px*/ 
+
 @media (max-width: 360px) {
  .container{
     display: flex;
