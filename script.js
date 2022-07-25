@@ -10,5 +10,4 @@ function cleared() {
 function answer() {
     calculatorForm.screen.value = eval(calculatorForm.screen.value )
    
-   
 }
